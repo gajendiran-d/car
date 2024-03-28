@@ -1,0 +1,409 @@
+@import url(https://fonts.googleapis.com/css2?family=Baumans&display=swap);
+
+/*   === ### ===  Navbar Color  === ### ===  */
+.bg-black,
+.bg-blue,
+.bg-brown,
+.bg-gold,
+.bg-green,
+.bg-indigo,
+.bg-maroon,
+.bg-navy,
+.bg-olive,
+.bg-orange,
+.bg-pink,
+.bg-purple,
+.bg-red,
+.bg-teal,
+.bg-violet {
+    color: #fff;
+}
+.bg-red,
+a.bg-red:focus,
+a.bg-red:hover {
+    background-color: #c03;
+}
+.bg-blue,
+a.bg-blue:focus,
+a.bg-blue:hover {
+    background-color: #0000ff;
+}
+.bg-green,
+a.bg-green:focus,
+a.bg-green:hover {
+    background-color: #008000;
+}
+.bg-violet,
+a.bg-violet:focus,
+a.bg-violet:hover {
+    background-color: #4e2b6f;
+}
+.bg-orange,
+a.bg-orange:focus,
+a.bg-orange:hover {
+    background-color: #d3702e;
+}
+.bg-brown,
+a.bg-brown:focus,
+a.bg-brown:hover {
+    background-color: #8b4513;
+}
+.bg-black,
+a.bg-black:focus,
+a.bg-black:hover {
+    background-color: #111;
+}
+.bg-maroon,
+a.bg-maroon:focus,
+a.bg-maroon:hover {
+    background-color: #800000;
+}
+.bg-purple,
+a.bg-purple:focus,
+a.bg-purple:hover {
+    background-color: #800080;
+}
+.bg-olive,
+a.bg-olive:focus,
+a.bg-olive:hover {
+    background-color: #808000;
+}
+.bg-pink,
+a.bg-pink:focus,
+a.bg-pink:hover {
+    background-color: #ff69b4;
+}
+.bg-indigo,
+a.bg-indigo:focus,
+a.bg-indigo:hover {
+    background-color: #4b0082;
+}
+.bg-teal,
+a.bg-teal:focus,
+a.bg-teal:hover {
+    background-color: #008080;
+}
+.bg-gold,
+a.bg-gold:focus,
+a.bg-gold:hover {
+    background-color: #daa520;
+}
+.bg-navy,
+a.bg-navy:focus,
+a.bg-navy:hover {
+    background-color: #001f3f;
+}
+
+/*   === ### ===  Text Size and Color  === ### ===  */
+.btn,
+.dropdown-menu,
+.form-control,
+.input-group-addon,
+.popover,
+.popover-title,
+body {
+    font-size: 14px;
+}
+body {
+    font-family: "Baumans", cursive;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f6d285;
+    background-image: linear-gradient(90deg, #d38312 0%, #a83279 74%);
+}
+.fa-6x {
+    font-size: 6em;
+}
+.fa-2x {
+    font-size: 1.5em;
+}
+.fa-3x {
+    font-size: 1.8em;
+}
+.fa-1x {
+    font-size: 12px;
+}
+.text-white {
+    color: #fff;
+}
+.text-black {
+    color: #333;
+}
+.text-gold {
+    color: #f5c231;
+}
+.text-silver {
+    color: #b2b3b5;
+}
+.text-bronze {
+    color: #ab491a;
+}
+.text-orange {
+    color: #f06525;
+}
+.text-green {
+    color: #939336;
+}
+.text-blue {
+    color: #5e8ab4;
+}
+.text-gray {
+    color: #414042;
+}
+.text-lightgray {
+    color: #999;
+}
+.text-factor {
+    color: #090;
+    font-size: 18px;
+}
+.text-category {
+    color: #dd0e0e;
+    font-size: 16px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #f06424;
+    text-decoration: underline;
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.a-disabled {
+    pointer-events: none;
+    cursor: default;
+}
+.btn-add {
+    display: inline-block;
+    padding: 4px 7px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*   === ### ===  Notification Bell  === ### ===  */
+.notification-badge {
+    display: inline-block;
+    min-width: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    background-color: #c9302c;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    padding: 5px;
+}
+.notification-badge:empty {
+    display: none;
+}
+
+/*   === ### ===  Landing Screen  === ### ===  */
+.logout-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -24px;
+}
+@media (min-width: 767px) {
+    .logout-container {
+        padding-right: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .logout-container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+/*   === ### ===  Logo  === ### ===  */
+.navbar-logo {
+    margin-left: -13px;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+/*   === ### ===  Navbar Text Color  === ### ===  */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: hsla(0, 0%, 100%, 0.8);
+}
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: hsla(0, 0%, 100%, 0.25);
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-toggler {
+    color: hsla(0, 0%, 100%, 0.5);
+    border-color: hsla(0, 0%, 100%, 0.1);
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-dark .navbar-text {
+    color: hsla(0, 0%, 100%, 0.5);
+}
+.navbar-dark .navbar-text a,
+.navbar-dark .navbar-text a:focus,
+.navbar-dark .navbar-text a:hover {
+    color: #fff;
+}
+
+/*   === ### ===  Panel Box   === ### ===  */
+.panel-box {
+    overflow: auto;
+    height: 14em;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,
+        -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/*   === ### ===  Override User Agent Stylesheet  === ### ===  */
+.table {
+    font-size: inherit;
+}
+
+/*   === ### ===  Word Space === ### ===  */
+span.category-space {
+    padding-left: 2em;
+}
+span.activity-space {
+    padding-left: 4em;
+}
+
+/* hr color */
+hr.blue {
+    border: 2px solid #0000ff;
+}
+
+/* Sidebar Menu */
+.mn-vnavigation {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-top: 1px solid #f0f1eb;
+    border-bottom: 1px solid #f0f1eb;
+}
+ul {
+    list-style: none;
+}
+.mn-vnavigation li a {
+    border-top: 1px solid #f0f1eb;
+    border-bottom: 1px solid #f0f1eb;
+    display: block;
+    padding: 14px 18px 13px 15px;
+    color: #1295d8;
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.mn-vnavigation li a:hover {
+    background-color: #1295d8;
+    color: #fff;
+}
+.mn-vnavigation li.active a {
+    background-color: #1295d8;
+    color: #fff;
+}
+
+/* Switch Toggle */
+.switch-toggle {
+    float: left;
+    background: #6cb2eb;
+}
+.switch-toggle input {
+    position: absolute;
+    opacity: 0;
+}
+.switch-toggle input + label {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.switch-toggle input:checked + label {
+    background: green;
+}
+
+/* Dashboard Counter Box */
+.counter-box {
+    display: block;
+    background: #f6f6f6;
+    padding: 30px 20px 30px;
+    text-align: center;
+    border-bottom: 2px solid #08dd48;
+}
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: 500;
+}
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2;
+}
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px;
+}
+.counter-box.colored {
+    background: #3acf87;
+}
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff;
+}
